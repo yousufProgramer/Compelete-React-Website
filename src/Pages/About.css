@@ -1,0 +1,46 @@
+.aboutLink li{
+    list-style: none;
+}
+.aboutLink{
+    margin-bottom: 15px;
+}
+.aboutItem p{
+     font-size: 18px;
+     color: rgb(78, 73, 73);
+     margin: 15px 0px;
+     font-weight: 400;
+}
+.aboutLeft h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.aboutImg{
+    border-radius: 15px;
+}
+.nav-item{
+    margin: 10px 0px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.nav-item span{
+    font-size: 25px;
+    margin-right: 10px;
+    color: #035a50;
+}
+
+/* @media screen and (max-width: 340px){
+    .aboutItem{
+        overflow: hidden;
+        width: 365px;
+    }
+
+    .aboutItem p{
+        font-size: 16px;
+        width: 280px;
+        margin: auto;
+        margin-top: 20px;
+   }
+ } */
+

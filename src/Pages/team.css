@@ -1,0 +1,43 @@
+.teamImg{
+    padding: 20px;
+    border-radius: 30px;
+}
+.card h4{
+    text-align: center;
+    font-size: 25px;
+}
+.card p{
+    text-align: center;
+    color: rgb(83, 81, 81);
+}
+.card span{
+    margin-right: 10px;
+    margin-left: 14px;
+    background: transparent;
+    /* border: 1px solid #035a50; */
+    border: 2px solid rgb(116, 114, 114);
+    font-size: 23px;
+    color: rgb(116, 114, 114);
+    padding: 4px 4px;
+    border-radius: 50%;
+    cursor: pointer;
+    padding-bottom: 7px;
+    text-align: center;
+    transition: all .3s ease-in;
+}
+.card span:hover{
+    border: 2px solid #035a50;
+    color: #035a50;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding-bottom: 10px;
+}
+/* @media screen and (max-width: 340px){
+    .teamMain{
+        overflow: hidden;
+        width: 365px;
+    }
+
+   
+ } */

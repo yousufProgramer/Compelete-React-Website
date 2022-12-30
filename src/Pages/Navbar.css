@@ -1,0 +1,36 @@
+.mainNav{
+    background: #056d61;
+    padding: 10px 0px;
+    width: 100%;
+}
+.nabBar{
+    display: flex;
+    justify-content: end;
+}
+.header{
+    font-size: 25px;
+    color: aliceblue;
+    font-weight: 600;
+}
+.header span{
+    color: orangered;
+}
+.navLink{
+    color: rgb(224, 213, 213);
+    font-size: 18px;
+    margin: 0px 10px;
+    font-weight: 600;
+}
+.navLink:hover{
+    color: white;
+}
+.NavLink .active{
+    color: orangered;
+}
+
+
+@media screen and (max-width: 350px){
+   .mainNav{
+     width: 100%;
+   }
+}

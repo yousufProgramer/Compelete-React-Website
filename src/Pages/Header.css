@@ -1,0 +1,116 @@
+.mainHeader{
+   background: #035a50;
+    height: 80vh;
+    overflow: hidden;
+}
+.headerLeft{
+   margin-top: 15%;
+
+}
+.headerLeft h1{
+   font-size: 60px;
+   color: rgb(242, 246, 250);
+   margin-bottom: 15px;
+}
+.headerLeft p{
+    font-size: 20px;
+    color: rgb(202, 196, 196);
+    margin-bottom: 15px;
+ }
+ .left{
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 500;
+    padding: ;
+    border: 1px solid whitesmoke;
+    padding: 13px 23px;
+    border-radius: 50px;
+    margin-right: 20px;
+    margin-top: 10px;
+ }
+ .left:hover{
+    color: aliceblue;
+ }
+ .right{
+    border: none;
+ }
+ .right:hover{
+    border: 1px solid whitesmoke;
+ }
+ .left span{
+    margin-right: 10px;
+    font-size: 20px;
+ }
+ .headerImg{
+    margin-top: 20%;
+ }
+ @media screen and (max-width: 772px){
+   .mainHeader{
+      background: #035a50;
+       height: 80vh;
+       overflow: hidden;
+       
+   }
+    .headerLeft{
+        margin-top: 10%;
+
+     }
+     .headerLeft h1{
+        font-size: 30px;
+     }
+     .headerLeft p{
+        font-size: 6;
+     }
+     .left{
+        color: aliceblue;
+        font-size: 14px;
+        font-weight: 500;
+        border: 1px solid whitesmoke;
+        
+     }
+     .left span{
+        margin-right: 10px;
+        font-size: 14px;
+     }
+     .headerImg{
+        margin-top: 20px;
+        width: 60%;
+        margin-top: 30%;
+     }
+}
+@media screen and (max-width: 550px){
+   .mainHeader{
+      background: #035a50;
+       height: 80vh;
+       overflow: hidden;
+   }
+    .headerLeft{
+        margin-top: 15%;
+     
+     }
+     .headerImg{
+        visibility: hidden;
+     }
+} 
+
+@media screen and (max-width: 992px){
+    .left{
+        color: aliceblue;
+        font-size: 14px;
+        font-weight: 500;
+        border: 1px solid whitesmoke;
+        
+     }
+     .left span{
+        margin-right: 10px;
+        font-size: 14px;
+     }
+} 
+
+/* @media screen and (max-width: 340px){
+   .mainHeader{
+      background: #035a50;
+       overflow: hidden;
+       width: 365px;
+   }
+} */

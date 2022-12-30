@@ -1,0 +1,33 @@
+.headerBox{
+    background: #ffff;
+    
+}
+.boxItem{
+    background: #056d61;
+    text-align: center;
+    padding: 60px 10px;
+     border-radius: 10px;
+     cursor: pointer;
+     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.boxItem:hover{
+    background: #089988;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.boxItem h3{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 15px 0px;
+}
+.boxItem span{
+    font-size: 35px;
+    color: antiquewhite;
+    font-weight: 600;
+}
+/* @media screen and (max-width: 340px){
+    .headerBox{
+       background: #035a50;
+        overflow: hidden;
+        width: 365px;
+    }
+ } */

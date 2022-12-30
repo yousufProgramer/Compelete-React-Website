@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.topMenu{
+    background-color:  #008374;
+}
+.icon{
+    display: flex;
+    justify-content: end;
+    
+}
+.icon span{
+    margin: 0px 10px;
+    font-size: 20px;
+    color: white;
+
+}
+.footerLeft p{
+    font-size: 18px;
+    color: aliceblue;
+
+}
+@media screen and (max-width: 990px){
+    .iconHide{
+        display: none;
+    }
+    .footerLeft{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 370px){
+     .topMenu{
+       display: none;
+    }
+ } 

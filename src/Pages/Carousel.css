@@ -1,0 +1,32 @@
+
+.mainCu img{
+    width: 100px;
+    height: auto;
+}
+.slickSilder{
+    margin: 0px 100px;
+    
+}
+@media screen and (max-width: 600px) {
+    .slickSilder{
+        margin: 0px 10px;
+    }
+    .mainCu img{
+        width: 20px;
+        height: auto;
+        margin: 10px;
+    }
+    img{
+        width: 20px;
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .slickSilder{
+        margin: 0px 10px;
+    }
+    .mainCu img{
+        width: 70px;
+        height: auto;
+    }
+}

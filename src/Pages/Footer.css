@@ -1,0 +1,24 @@
+.footer{
+    background-color:  #035a50;
+    text-align: center;
+    color: aliceblue;
+}
+.footer span{
+    font-weight: 700;
+
+}
+.footer h4{
+    font-size: 20px;
+}
+.topScroll{
+    background: #035a50 !important;
+   
+}
+/* @media screen and (max-width: 340px){
+    .footer{
+        overflow: hidden;
+        width: 365px;
+    }
+
+   
+ } */
