@@ -22,6 +22,9 @@ function Header() {
                  src="hero-img.svg"
                 alt="Second slide"
                     />
+
+                   
+                    
                 </div>
             </div>
         </div>
