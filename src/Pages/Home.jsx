@@ -6,6 +6,7 @@ import About from './About'
 import Carousel from './Carousel'
 import Team from './Team'
 import Blog from './Blog'
+import Contact from './Contact'
 // import AddressBar from './AddressBar'
 function Home() {
   return (
@@ -21,6 +22,7 @@ function Home() {
       <Blog />
       <Carousel />
       <Team />
+      <Contact />
       </main>
     </div>
   )
